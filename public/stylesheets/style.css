@@ -1,0 +1,32 @@
+body {
+  	padding-top: 50px;
+  	height: 100%;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} 
+
+a {
+  	color: #00B7FF;
+}
+p, li{
+	font-size: 16px;
+}
+ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#messages{	
+	margin-top: 20px;
+    text-align: center;
+}
+#messages .success{
+    background: #fff1af;
+    padding: 10px;	
+}
+#messages .error{
+    background: #ffa3a3;
+    padding: 10px;	
+}
+#messages li{
+	font-size: 18px;
+}
